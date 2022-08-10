@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <servlet>
+        <servlet-name>Upload_new</servlet-name>
+        <servlet-class>network.Upload_new</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Download</servlet-name>
+        <servlet-class>network.Download</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Upload_new</servlet-name>
+        <url-pattern>/Upload_new</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Download</servlet-name>
+        <url-pattern>/Download</url-pattern>
+    </servlet-mapping>
+</web-app>
